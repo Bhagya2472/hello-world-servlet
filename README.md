@@ -12,4 +12,5 @@ webhook test
 03/02/2020
 09/04/2020 ---> THURSDAY
 05/07/2020
-115/07/2020 ---> Thursday
+15/07/2020 ---> Thursday
+Today is Thursday
