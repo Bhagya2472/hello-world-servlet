@@ -46,7 +46,7 @@ stages {
         scannerHome = tool 'Sonarqube'
     }
     steps {
-        withSonarQubeEnv('Sonarqube') {
+        withSonarQubeEnv('sonarqube') {
             sh "${scannerHome}/bin/sonar-scanner"
         }
         timeout(time: 10, unit: 'MINUTES') {
